@@ -1,0 +1,45 @@
+Forms in HTML
+<body>
+    <h1>Form to Apply for the course</h1>
+    <form action="post">
+        <div>
+        <label for="username">User Name:</label>
+        <input type="username" id="username" placeholder="type your user name">
+        </div>
+        <div>
+        <label>
+            Male
+            <input type="radio" '
+            name="gender" value="male" />
+        </label>
+        <label>
+            Female
+            <input type="radio"
+            name="gender" value="female" />
+        </label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label> 
+        </div>
+        <div>
+            <label for="comment">enter your comment here</label><br>
+            <textarea name="comment" row="4" cols="50"></textarea>
+        </div>
+        <div>
+            <select name="strength">
+                <option value="Web Development">Web Development</option>
+                <option value="Andoid">Android</option>
+                <option value="DSA">DSA</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+
+Learnt about various feature of form in HTML like:
+1. input type username
+2. input type radio 
+3. input type checkbox
+4. select feature of the drop down list
+5. label for each inpute type
